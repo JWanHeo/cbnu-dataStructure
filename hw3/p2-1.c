@@ -13,6 +13,8 @@ void main(void)
   for(i=0; i < MAX_SIZE; i++)
     input[i] = i;
 
+  printf("[----- ÇãÁ¦¿Ï 2020069031 -----]\n");
+
   /* for checking call by reference */
   printf("--------------------------------------\n");
   printf(" sum1(input, MAX_SIZE) \n");

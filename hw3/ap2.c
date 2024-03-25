@@ -10,6 +10,8 @@ void main()
   list[1] = 11;
   
   plist[0] = (int*)malloc(sizeof(int));
+
+    printf("[----- ÇãÁ¦¿Ï 2020069031 -----]\n");
   
   printf("list[0] \t= %d\n", list[0]);
   printf("list \t\t= %p\n", list);

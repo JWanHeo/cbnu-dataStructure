@@ -12,6 +12,8 @@ void main()
   list[1] = 100;
   
   *plist[0] = 200;
+
+  printf("[----- ÇãÁ¦¿Ï 2020069031 -----]\n");
   
   printf("list[0] = %d\n", list[0]);
   printf("&list[0] = %p\n", &list[0]);
