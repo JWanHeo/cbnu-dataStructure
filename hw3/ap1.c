@@ -22,9 +22,9 @@ void main()
   
   printf("----------------------------------------\n\n");
   printf("list[1] = %d\n", list[1]); // list의 1번째 요소의 값 100 출력
-  printf("&list[1] = %p\n", &list[1]); // list의 1번 인덱스의 주소 출력
-  printf("*(list+1) = %d\n", *(list + 1)); // list의 시작 주소로부터 4바이트 뒤의 주소 출력
-  printf("list+1 = %p\n", list+1); // list의 시작 주소로부터 1바이트 뒤의 주소 출력
+  printf("&list[1] = %p\n", &list[1]); // list의 1번째 요소의 주소 출력
+  printf("*(list+1) = %d\n", *(list + 1)); // list의 시작 주소로부터 4바이트 뒤의 주소의 값 출력
+  printf("list+1 = %p\n", list+1); // list의 시작 주소로부터 4바이트 뒤의 주소 출력
   
   printf("----------------------------------------\n\n");
   

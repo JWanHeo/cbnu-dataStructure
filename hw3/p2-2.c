@@ -8,7 +8,7 @@ int main()
   printf("[----- 허제완 2020069031 -----]\n");
 
   printf("one = %p\n", one); // one의 시작 주소 출력
-  printf("&one = %p\n", &one); // one의 시작 주소가 저장된 주소 출력
+  printf("&one = %p\n", &one); // one의 주소 출력
   printf("&one[0] = %p\n", &one[0]); // one의 0번째 요소의 주소(one의 시작 주소) 출력
   printf("\n");
   

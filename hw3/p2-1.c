@@ -45,7 +45,7 @@ void main(void)
 float sum1(float list[], int n) // float형 배열 list와 순회할 최종 인덱스 n을 파라미터로 받는 함수
 {
   printf("list \t= %p\n", list); // list의 시작 주소 출력
-  printf("&list \t= %p\n\n", &list); // list의 시작 주소가 저장되어 있는 주소 출력
+  printf("&list \t= %p\n\n", &list); // list의 주소 출력
 
   int i; // 반복 변수 i 선언
   float tempsum = 0; // 최종 반환값을 0으로 초기화
@@ -59,7 +59,7 @@ float sum1(float list[], int n) // float형 배열 list와 순회할 최종 인덱스 n을 파
 float sum2(float *list, int n) // float형 포인터 list와 반복 횟수 n을 파라미터로 받는 함수
 {
   printf("list \t= %p\n", list); // list의 시작 주소를 출력
-  printf("&list \t= %p\n\n", &list); // list의 시작 주소가 저장되어 있는 주소 출력
+  printf("&list \t= %p\n\n", &list); // list의 주소 출력
 
   int i; // 반복 변수 i
   float tempsum = 0; // 최종 반환값을 0으로 초기화
