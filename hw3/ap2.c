@@ -6,8 +6,8 @@ void main()
   int list[5]; // 길이가 5인 int형 배열 선언
   int *plist[5]; // 길이가 5인 int형 포인터 배열 선언
 
-  list[0] = 10; // list의 0번째 인덱스에 10 저장
-  list[1] = 11; // list의 1번째 인덱스에 11 저쟝
+  list[0] = 10; // list의 0번째 요소로 10 저장
+  list[1] = 11; // list의 1번째 요소로 11 저쟝
   
   plist[0] = (int*)malloc(sizeof(int)); // 4바이트 공간 동적 할당 후 할당한 공간의 주소를 plist의 0번째 공간에 저장
 

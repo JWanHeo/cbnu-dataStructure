@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX_SIZE 100
+#define MAX_SIZE 100 // 매크로 정의
 
 float sum1(float list[], int);
 float sum2(float *list, int);
@@ -11,7 +11,7 @@ int i; // int형 변수 i 선언
 void main(void)
 {
   for(i=0; i < MAX_SIZE; i++) 
-    input[i] = i; // 0 ~ 99까지 각 인덱스에 인덱스 값 넣기
+    input[i] = i; // 0 ~ 99까지 각 인덱스에 요소 저장
 
   printf("[----- 허제완 2020069031 -----]\n");
 
@@ -30,15 +30,15 @@ void main(void)
   printf("input \t= %p\n", input); // 배열 input의 시작 주소 출력
   
   answer = sum2(input, MAX_SIZE); // 베이스 포인터인 input으로부터 100*4byte의 주소까지 순회하며 각 주소에 저장된 값들을 합하여 answer에 저장
-  printf("The sum is: %f\n\n", answer); // answer의 값((0 ~ 99까지의 합)) 출력
+  printf("The sum is: %f\n\n", answer); // answer의 값(0 ~ 99까지의 합) 출력
   
   printf("--------------------------------------\n");
   printf(" sum3(MAX_SIZE, input) \n");
   printf("--------------------------------------\n");
   printf("input \t= %p\n", input); // input의 시작 주소 출력
   
-  answer = sum3(MAX_SIZE, input); // 
-  printf("The sum is: %f\n\n", answer); // answer의 값((0 ~ 99까지의 합)) 반환
+  answer = sum3(MAX_SIZE, input); // 베이스 포인터인 input으로부터 100*4byte의 주소까지 순회하며 각 주소에 저장된 값들을 합하여 answer에 저장
+  printf("The sum is: %f\n\n", answer); // answer의 값(0 ~ 99까지의 합) 반환
   
 }
 
